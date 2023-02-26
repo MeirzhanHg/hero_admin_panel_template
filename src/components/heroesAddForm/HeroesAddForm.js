@@ -10,7 +10,7 @@ const HeroesAddForm = () => {
     const [textArea, setTextArea] = useState('')
     const [checkbox, setCheckbox] = useState(null)
 
-    const { filters, filtersLoadingStatus } = useSelector(state => state);
+    const { filters, filtersLoadingStatus } = useSelector(state => state.filters);
     const dispatch = useDispatch()
     const { request } = useHttp()
 
