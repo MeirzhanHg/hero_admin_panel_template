@@ -16,9 +16,7 @@ const HeroesList = () => {
         (state) => state.heroes.heroes,
         (state) => state.filters.activeFilter,
         (heroes, filter) => {
-            if(filter === 'all') {
-                console.log('render');
-                
+            if(filter === 'all') { 
                 return heroes;
             } else {
                 return heroes.filter(item => item.element === filter);
@@ -27,7 +25,7 @@ const HeroesList = () => {
     )
 
     const filteredHeroes = useSelector(filteredHeroesSelector)
-    const heroesLoadingStatus = useSelector(state => state.heroesLoadingStatus);
+    const heroesLoadingStatus = useSelector(state => state.heroes.heroesLoadingStatus);
     const dispatch = useDispatch();
     const { request } = useHttp();
 

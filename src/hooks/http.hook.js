@@ -4,7 +4,6 @@ export const useHttp = () => {
     // const [process, setProcess] = useState('waiting');
 
     const request = useCallback(async (url, method = 'GET', body = null, headers = {'Content-Type': 'application/json'}) => {
-        console.log(body)
         // setProcess('loading');
 
         try {
