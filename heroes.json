@@ -29,6 +29,12 @@
       "name": "dsa",
       "description": "asd",
       "element": "fire"
+    },
+    {
+      "id": "cf1fed0c-f0f6-420f-98d8-4ff5b698e667",
+      "name": "вфы",
+      "description": "выф",
+      "element": "fire"
     }
   ],
   "filters": [
