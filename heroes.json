@@ -13,28 +13,10 @@
       "element": "earth"
     },
     {
-      "id": "45e9fb94-4b50-4ae9-8f91-8574fea49ddd",
-      "name": "dqwdwq",
-      "description": "qwdw",
-      "element": "water"
-    },
-    {
       "id": "2a1de315-9551-4b60-93fb-1c9a3fae1bd3",
       "name": "dqw",
       "description": "dwqd",
       "element": "wind"
-    },
-    {
-      "id": "8769204c-f9dd-4c98-ba2e-8fa4e6ef8e10",
-      "name": "dsa",
-      "description": "asd",
-      "element": "fire"
-    },
-    {
-      "id": "cf1fed0c-f0f6-420f-98d8-4ff5b698e667",
-      "name": "вфы",
-      "description": "выф",
-      "element": "fire"
     }
   ],
   "filters": [
