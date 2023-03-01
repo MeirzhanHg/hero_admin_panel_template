@@ -2,13 +2,15 @@ import { useEffect } from 'react';
 import classNames from 'classnames';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { filtersChanged, fetchFilter } from './filtersSlice';
+import { filtersChanged, fetchFilter, selectAll } from './filtersSlice';
 
 import Spinner from '../spinner/Spinner';
+import store from '../../store';
 
 const HeroesFilters = () => {
 
-    const { filters, filtersLoadingStatus, activeFilter } = useSelector(state => state.filters);
+    const { filtersLoadingStatus, activeFilter } = useSelector(state => state.filters);
+    const filters = selectAll(store.getState())
     const dispatch = useDispatch();
 
     // Запрос на сервер для получения фильтров и последовательной смены состояния   3

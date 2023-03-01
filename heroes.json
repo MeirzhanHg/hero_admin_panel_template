@@ -1,46 +1,57 @@
 {
   "heroes": [
     {
-      "id": "76626327-03c2-49ed-91b0-82ade3dc6eb6",
-      "name": "Meirzhan",
-      "description": "dsadsdas",
-      "element": "fire"
-    },
-    {
-      "id": "ba2dc33f-dcac-47f8-b6ce-593e1e97f140",
-      "name": "dwqwq",
-      "description": "dwqdq",
+      "id": "a88a804b-e807-4ddd-923e-43dbf2025575",
+      "name": "Камшат",
+      "description": "Пицца",
       "element": "earth"
     },
     {
-      "id": "2a1de315-9551-4b60-93fb-1c9a3fae1bd3",
-      "name": "dqw",
-      "description": "dwqd",
+      "id": "6656a3f9-b259-405c-b2f8-bd18d87389e3",
+      "name": "Шолпан",
+      "description": "Комекшы",
+      "element": "water"
+    },
+    {
+      "id": "c14d8f23-1411-4428-8d2a-08f4627b2373",
+      "name": "Meirzhan",
+      "description": "Уй жинагыш, посуда жугыш",
+      "element": "fire"
+    },
+    {
+      "id": "b8ec683d-3661-42ca-bf3f-070b6962b5b8",
+      "name": "Кыдыралы коке",
+      "description": "Коп жылдан сон уйленды",
       "element": "wind"
     }
   ],
   "filters": [
     {
+      "id": "all",
       "name": "all",
       "label": "Все",
       "className": "btn-outline-dark"
     },
     {
+      "id": "fire",
       "name": "fire",
       "label": "Огонь",
       "className": "btn-danger"
     },
     {
+      "id": "water",
       "name": "water",
       "label": "Вода",
       "className": "btn-primary"
     },
     {
+      "id": "wind",
       "name": "wind",
       "label": "Ветер",
       "className": "btn-success"
     },
     {
+      "id": "earth",
       "name": "earth",
       "label": "Земля",
       "className": "btn-secondary"
